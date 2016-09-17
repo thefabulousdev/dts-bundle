@@ -6,7 +6,6 @@
 /node_modules
 /typings
 
-/lib/**/*.js
 !/lib/dts-bundle.js
 
 /test/tmp
