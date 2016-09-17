@@ -1,4 +1,10 @@
-# dts-bundle
+# dts-bundle-hot-fix
+
+## Why hot-fix?
+A PR which solves a very basic issue has been hanging unseen by the main contributors of the dts-bundle repository since July 2016.
+
+## What is hot-fixed?
+- [bundler fails when files are imported by directory name (CommonJS idiom)](https://github.com/TypeStrong/dts-bundle/issues/38)
 
 [![Build Status](https://travis-ci.org/TypeStrong/dts-bundle.svg)](https://travis-ci.org/TypeStrong/dts-bundle) [![NPM version](https://badge.fury.io/js/dts-bundle.svg)](http://badge.fury.io/js/dts-bundle) [![Dependency Status](https://david-dm.org/TypeStrong/dts-bundle.svg)](https://david-dm.org/TypeStrong/dts-bundle) [![devDependency Status](https://david-dm.org/TypeStrong/dts-bundle/dev-status.svg)](https://david-dm.org/TypeStrong/dts-bundle#info=devDependencies)
 
@@ -320,6 +326,7 @@ Emitting `tmp/out/cooles.d.ts`.
 They are very welcome. Beware this module is a quick hack-job so good luck!
 
 * Martin Poelstra (@poelstra): Exclude 'external' typings, optional debug output, improved configurability.
+* [thefabulousdev](https://github.com/thefabulousdev) hot fix package
 
 ## License
 
