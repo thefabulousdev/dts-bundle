@@ -1,6 +1,6 @@
 {
   "name": "dts-bundle-hot-fix",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Export TypeScript .d.ts files as an external module definition",
   "keywords": [
     "typescript",
@@ -12,10 +12,10 @@
   "bin": {
     "dts-bundle": "./lib/dts-bundle.js"
   },
-  "homepage": "https://github.com/grunt-ts/dts-bundle",
+  "homepage": "https://github.com/thefabulousdev/dts-bundle",
   "repository": {
     "type": "git",
-    "url": "https://github.com/grunt-ts/dts-bundle.git"
+    "url": "https://github.com/thefabulousdev/dts-bundle.git"
   },
   "author": {
     "name": "Bart van der Schoor",
@@ -28,7 +28,7 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/grunt-ts/dts-bundle/issues"
+    "url": "https://github.com/thefabulousdev/dts-bundle/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
